@@ -34,7 +34,7 @@ namespace ProProxy
             {
                 while (sRdr.Peek() >= 0)
                 {
-                    string st = sRdr.ReadToEnd();
+                    string st = sRdr.ReadLine();
                     IProxy p = new Proxy() { ProxyHost = st };
                     Proxies.Add(p);
                 }
