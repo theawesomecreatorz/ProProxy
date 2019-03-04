@@ -2,6 +2,6 @@
 {
     public interface IProxy
     {
-         string ProxyHost { get; set; }
+        string ProxyHost { get; set; }
     }
 }
